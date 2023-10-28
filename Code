@@ -1,0 +1,8 @@
+module D_Latch(D, Clk, Q);
+  input D, Clk;
+  output Q;
+
+  always@ (d, Clk)
+    if(clk)
+      Q=d;
+endmodule
